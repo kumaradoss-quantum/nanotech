@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -41,7 +41,7 @@ td {
     position: relative;
 }
 
-td:hover::before{
+td:hover::before {
    content: "";
    position: absolute;
    left: 0;
@@ -51,6 +51,3 @@ td:hover::before{
    background-color: rgba(255, 255, 255, 0.2);
    z-index: -1;
 }
-
-
-
